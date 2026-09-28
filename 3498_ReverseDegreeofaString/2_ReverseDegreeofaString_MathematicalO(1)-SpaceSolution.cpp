@@ -1,18 +1,3 @@
-#include<iostream>
+lg ad solutions -> Software Engineer I -> https://lgads.tv/careers/?ashby_jid=02b11bae-83d2-47f5-9ff2-6114f13ee360 3:38am
 
-
-class Solution {
-public:
-    int reverseDegree(string s) {
-        int ans = 0;
-        for(int i=0 ; i<s.size(); i++){
-            ans += ( (i+1) * ( ('z' - s[i]) +1 ));
-        }
-        return ans;
-    }
-};
-
-
-int main(){
-    return 0;
-}
+EA -> Java Full Stack Intern -> https://jobs.ea.com/en_US/careers/JobDetail?jobId=215942
