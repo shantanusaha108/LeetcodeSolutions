@@ -1,10 +1,14 @@
+#include<iostream>
+#include<string>
+
+
 class Solution {
 public:
-    string removeOuterParentheses(string s) {
+    std::string removeOuterParentheses(std::string s) {
         int count = 0;
         int index = 0;
         int i = 0;
-        string ans;
+        std::string ans;
         for(const auto& elem : s){
             if(elem == '(') count++;
             else count--;
@@ -19,3 +23,8 @@ public:
         return ans;
     }
 };
+
+
+int main(){
+    return 0;
+}
