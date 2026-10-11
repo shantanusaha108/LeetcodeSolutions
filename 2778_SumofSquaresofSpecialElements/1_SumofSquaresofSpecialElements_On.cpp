@@ -1,6 +1,10 @@
+#include<iostream>
+#include<vector>
+
+
 class Solution {
 public:
-    int sumOfSquares(vector<int>& nums) {
+    int sumOfSquares(std::vector<int>& nums) {
         int ans = 0;
         int n = static_cast<int>(nums.size());
         for(int i=0; i<nums.size(); ++i){
@@ -11,3 +15,8 @@ public:
         return ans;
     }
 };
+
+
+int main(){
+    return 0;
+}
