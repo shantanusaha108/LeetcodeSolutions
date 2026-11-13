@@ -24,9 +24,9 @@ public:
                     strctDec++;
                     res = std::max(res,strctDec);
                 }else{
+                    res = std::max({res,strctDec,strctInc});
                     strctInc = 0;
                     strctDec = 0;
-                    res = std::max({res,strctDec,strctInc});
                 }
             }
         }
